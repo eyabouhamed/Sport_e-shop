@@ -113,8 +113,8 @@
           <div class="col-lg-4 col-md-6 col-sm-8 ml-auto mr-auto">
 
               <div class="card card-login card-hidden">
-                <div class="card-header card-header-rose text-center">
-                  <h4 class="card-title">Connexion</h4>
+                <div class="card-header card-header-dark text-center">
+                  <h4 class="card-title-dark">Connexion</h4>
                   <div class="social-line">
                     <a href="#" class="btn btn-just-icon btn-link btn-white">
                       <i class="fa fa-facebook-square"></i>
@@ -163,7 +163,7 @@
                     </div>
                   </span>
                       <div class="card-footer justify-content-center">
-                          <input type="submit" name="submit" class="btn btn-rose btn-link btn-lg"/>
+                          <input type="submit" name="submit" class="btn btn-dark btn-link btn-lg"/>
                       </div>
                   </form>
                 </div>
@@ -182,7 +182,7 @@
             &copy;
             <script>
               document.write(new Date().getFullYear())
-            </script>, made by RampageDev.
+            </script>, made by Renw's.
           </div>
         </div>
       </footer>

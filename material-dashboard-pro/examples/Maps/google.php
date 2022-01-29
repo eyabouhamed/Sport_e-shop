@@ -81,7 +81,7 @@ if (!isset($_SESSION['useremail'])){
   </noscript>
   <!-- End Google Tag Manager (noscript) -->
   <div class="wrapper ">
-    <div class="sidebar" data-color="rose" data-background-color="black" data-image="../../assets/img/sidebar-1.jpg">
+    <div class="sidebar" data-color="danger" data-background-color="black" data-image="../../assets/img/sidebar-1.jpg">
       <!--
         Tip 1: You can change the color of the sidebar using: data-color="purple | azure | green | orange | danger"
 
@@ -90,7 +90,7 @@ if (!isset($_SESSION['useremail'])){
       <div class="sidebar-wrapper">
         <div class="user">
           <div class="photo">
-            <img src="../../assets/img/sporting.jpg" />
+            <img src="../../assets/img/sporting.png" />
           </div>
           <div class="user-info">
               <span  class="username" style="color: aliceblue; ">
@@ -104,7 +104,7 @@ if (!isset($_SESSION['useremail'])){
               </div>
               <div class="user-info">
                   <a data-toggle="collapse" href="#collapseExample" class="username">
-              <span class="btn-link btn-info" title="Cliquez ici" style="text-decoration: none;">
+              <span class="btn-link btn-info" title="Cliquez ici" style="text-decoration: none;color:red;">
                 <?php echo strtoupper($_SESSION['username']); ?>
                 <b class="caret"></b>
               </span>
@@ -258,7 +258,7 @@ if (!isset($_SESSION['useremail'])){
             <div class="collapse show" id="mapsExamples">
               <ul class="nav">
                 <li class="nav-item active">
-                  <a class="nav-link" href="google.php">
+                  <a class="nav-link" href="google.php" style="background-color:red;">
                     <span class="sidebar-mini"> GM </span>
                     <span class="sidebar-normal"> Google Maps </span>
                   </a>
@@ -314,7 +314,7 @@ if (!isset($_SESSION['useremail'])){
           <div class="row">
             <div class="col-md-12">
               <div class="card ">
-                <div class="card-header card-header-text card-header-rose">
+                <div class="card-header card-header-text card-header-danger">
                   <div class="card-text">
                     <h4 class="card-title">Satellite Map</h4>
                   </div>
@@ -327,7 +327,7 @@ if (!isset($_SESSION['useremail'])){
             </div>
             <div class="col-md-6">
               <div class="card ">
-                <div class="card-header card-header-text card-header-rose">
+                <div class="card-header card-header-text card-header-danger">
                   <div class="card-text">
                     <h4 class="card-title">Regular Map</h4>
                   </div>
@@ -340,7 +340,7 @@ if (!isset($_SESSION['useremail'])){
             </div>
             <div class="col-md-6">
               <div class="card ">
-                <div class="card-header card-header-text card-header-rose">
+                <div class="card-header card-header-text card-header-danger">
                   <div class="card-text">
                     <h4 class="card-title">Custom Skin & Settings Map</h4>
                   </div>
@@ -371,7 +371,7 @@ if (!isset($_SESSION['useremail'])){
               <span class="badge filter badge-green" data-color="green"></span>
               <span class="badge filter badge-warning" data-color="orange"></span>
               <span class="badge filter badge-danger" data-color="danger"></span>
-              <span class="badge filter badge-rose active" data-color="rose"></span>
+              <span class="badge filter badge-danger active" data-color="danger"></span>
             </div>
             <div class="clearfix"></div>
           </a>
@@ -437,7 +437,7 @@ if (!isset($_SESSION['useremail'])){
           </a>
         </li>
         <li class="button-container">
-          <a href="https://www.creative-tim.com/product/material-dashboard-pro" target="_blank" class="btn btn-rose btn-block btn-fill">Buy Now</a>
+          <a href="https://www.creative-tim.com/product/material-dashboard-pro" target="_blank" class="btn btn-danger btn-block btn-fill">Buy Now</a>
           <a href="https://demos.creative-tim.com/material-dashboard-pro/docs/2.1/getting-started/introduction.html" target="_blank" class="btn btn-default btn-block">
             Documentation
           </a>

@@ -90,7 +90,7 @@ if (!isset($_SESSION['useremail'])){
       <div class="sidebar-wrapper">
         <div class="user">
           <div class="photo">
-            <img src="../assets/img/sporting.jpg" />
+            <img src="../assets/img/sporting.png" />
           </div>
           <div class="user-info">
               <span  class="username" style="color: aliceblue; ">
@@ -257,20 +257,20 @@ if (!isset($_SESSION['useremail'])){
             </a>
             <div class="collapse" id="mapsExamples">
               <ul class="nav">
-                <li class="nav-item ">
-                  <a class="nav-link" href="maps/google.php" style="background-color:red;">
+                <li class="nav-item-danger">
+                  <a class="nav-link" href="maps/google.php" >
                     <span class="sidebar-mini"> GM </span>
                     <span class="sidebar-normal"> Google Maps </span>
                   </a>
                 </li>
                 <li class="nav-item ">
-                  <a class="nav-link" href="maps/fullscreen.php" style="background-color:red;">
+                  <a class="nav-link" href="maps/fullscreen.php" >
                     <span class="sidebar-mini"> FSM </span>
                     <span class="sidebar-normal"> Full Screen Map </span>
                   </a>
                 </li>
                 <li class="nav-item ">
-                  <a class="nav-link" href="maps/vector.php" style="background-color:red;">
+                  <a class="nav-link" href="maps/vector.php" >
                     <span class="sidebar-mini"> VM </span>
                     <span class="sidebar-normal"> Vector Map </span>
                   </a>

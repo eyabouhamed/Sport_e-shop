@@ -366,7 +366,7 @@ if(isset($req)){
                       <div class="col-md-12">
                           <form id="TypeValidation" class="form-horizontal" action="AjouterFournisseurs.php" method="post">
                               <div class="card ">
-                                  <div class="card-header card-header-primary card-header-icon">
+                                  <div class="card-header card-header-dark card-header-icon">
                                       <div class="card-icon">
                                           <i class="material-icons">note_add</i>
                                       </div>

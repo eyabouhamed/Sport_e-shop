@@ -27,6 +27,8 @@ SET time_zone = "+00:00";
 --
 -- Table structure for table `admin`
 --
+CREATE DATABASE IF NOT EXISTS `sportingclub`;
+USE `sportingclub`;
 
 DROP TABLE IF EXISTS `admin`;
 CREATE TABLE IF NOT EXISTS `admin` (
@@ -43,10 +45,10 @@ CREATE TABLE IF NOT EXISTS `admin` (
 
 INSERT INTO `admin` (`id`, `username`, `email`, `passwd`) VALUES
 (1, 'admin', 'admin@admin.ad', 'admin123'),
-(2, 'eyabouhamed', 'eya.bouhamed@enis.tn', '123');
-(2, 'wiembelhadj', 'wiem.belhadj@enis.tn', '123');
-(2, 'rahmajallouli', 'rahma.jallouli@enis.tn', '123');
-(2, 'nourjridi', 'nour.jridi@enis.tn', '123');
+(2, 'eyabouhamed', 'eya.bouhamed@enis.tn', '123'),
+(3, 'wiembelhadj', 'wiem.belhadj@enis.tn', '123'),
+(4, 'rahmajallouli', 'rahma.jallouli@enis.tn', '123'),
+(5, 'nourjridi', 'nour.jridi@enis.tn', '123');
 
 
 -- --------------------------------------------------------

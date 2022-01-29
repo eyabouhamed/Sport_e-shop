@@ -392,14 +392,14 @@ if(isset($_POST['SubCat'])){
 
                       <div class="col">
                           <div class="card ">
-                              <div class="card-header card-header-primary card-header-icon">
+                              <div class="card-header card-header-dark  card-header-icon">
                                   <div class="card-icon">
                                       <i class="material-icons">note_add</i>
                                   </div>
                                   <h4 class="card-title">Ajouter</h4>
                               </div>
                               <div class="card-body">
-                                  <ul class="nav nav-pills nav-pills-info" role="tablist">
+                                  <ul class="nav nav-pills nav-pills-danger" role="tablist">
                                       <li class="nav-item">
                                           <a class="nav-link active show" data-toggle="tab" href="#link1" role="tablist">
                                               Categories

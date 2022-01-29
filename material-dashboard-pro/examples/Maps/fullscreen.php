@@ -90,7 +90,7 @@ if (!isset($_SESSION['useremail'])){
       <div class="sidebar-wrapper">
         <div class="user">
           <div class="photo">
-            <img src="../../assets/img/sporting.jpg" />
+            <img src="../../assets/img/sporting.png" />
           </div>
           <div class="user-info">
               <span  class="username" style="color: aliceblue; ">
@@ -104,7 +104,7 @@ if (!isset($_SESSION['useremail'])){
               </div>
               <div class="user-info">
                   <a data-toggle="collapse" href="#collapseExample" class="username">
-              <span class="btn-link btn-info" title="Cliquez ici" style="text-decoration: none;">
+              <span class="btn-link btn-info" title="Cliquez ici" style="text-decoration: none;color:red;">
                 <?php echo strtoupper($_SESSION['username']); ?>
                 <b class="caret"></b>
               </span>
@@ -264,7 +264,7 @@ if (!isset($_SESSION['useremail'])){
                   </a>
                 </li>
                 <li class="nav-item active">
-                  <a class="nav-link" href="fullscreen.php">
+                  <a class="nav-link" href="fullscreen.php" style="background-color: red;">
                     <span class="sidebar-mini"> FSM </span>
                     <span class="sidebar-normal"> Full Screen Map </span>
                   </a>

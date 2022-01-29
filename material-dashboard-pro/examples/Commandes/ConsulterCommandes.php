@@ -258,19 +258,19 @@ if (!isset($_SESSION['useremail'])){
             <div class="collapse" id="mapsExamples">
               <ul class="nav">
                 <li class="nav-item ">
-                  <a class="nav-link" href="../maps/google.php" style="background-color:red;">
+                  <a class="nav-link" href="../maps/google.php" >
                     <span class="sidebar-mini"> GM </span>
                     <span class="sidebar-normal"> Google Maps </span>
                   </a>
                 </li>
                 <li class="nav-item ">
-                  <a class="nav-link" href="../maps/fullscreen.php" style="background-color:red;">
+                  <a class="nav-link" href="../maps/fullscreen.php" >
                     <span class="sidebar-mini"> FSM </span>
                     <span class="sidebar-normal"> Full Screen Map </span>
                   </a>
                 </li>
                 <li class="nav-item ">
-                  <a class="nav-link" href="../maps/vector.php" style="background-color:red;">
+                  <a class="nav-link" href="../maps/vector.php" >
                     <span class="sidebar-mini"> VM </span>
                     <span class="sidebar-normal"> Vector Map </span>
                   </a>
@@ -279,7 +279,7 @@ if (!isset($_SESSION['useremail'])){
             </div>
           </li>
           <li class="nav-item ">
-            <a class="nav-link" href="../Calendar.php" style="background-color:red;">
+            <a class="nav-link" href="../Calendar.php" >
               <i class="material-icons">date_range</i>
               <p> Calendar </p>
             </a>
@@ -307,7 +307,7 @@ if (!isset($_SESSION['useremail'])){
           <div class="row">
             <div class="col-md-12">
               <div class="card">
-                <div class="card-header card-header-primary card-header-icon">
+                <div class="card-header card-header-danger card-header-icon">
                   <div class="card-icon">
                     <i class="material-icons">shopping_cart</i>
                   </div>

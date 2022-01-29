@@ -241,8 +241,8 @@
               </ul>
             </div>
           </li>
-          <li class="nav-item " style="background-color:red;">
-            <a class="nav-link" href="Commandes/ConsulterCommandes.php" style="background-color:red;">
+          <li class="nav-item ">
+            <a class="nav-link" href="Commandes/ConsulterCommandes.php" >
               <i class="material-icons">local_grocery_store</i>
               <p> Les commandes </p>
             </a>
@@ -315,7 +315,7 @@
             <div class="row">
               <div class="col-md-12">
                 <div class="card ">
-                  <div class="card-header card-header-success card-header-icon">
+                  <div class="card-header card-header-dark card-header-icon">
                     <div class="card-icon">
                       <i class="material-icons"></i>
                     </div>
@@ -423,7 +423,7 @@
                         <div class="row">
                           <div class="col-md-4">
                             <div class="card card-chart">
-                              <div class="card-header card-header-rose" data-header-animation="true">
+                              <div class="card-header card-header-danger" data-header-animation="true" >
                                 <div class="ct-chart" id="websiteViewsChart"></div>
                               </div>
                               <div class="card-body">
@@ -450,7 +450,7 @@
                           </div>
                           <div class="col-md-4">
                             <div class="card card-chart">
-                              <div class="card-header card-header-success" data-header-animation="true">
+                              <div class="card-header card-header-danger" data-header-animation="true">
                                 <div class="ct-chart" id="dailySalesChart"></div>
                               </div>
                               <div class="card-body">
@@ -478,7 +478,7 @@
                           </div>
                           <div class="col-md-4">
                             <div class="card card-chart">
-                              <div class="card-header card-header-info" data-header-animation="true">
+                              <div class="card-header card-header-danger" data-header-animation="true">
                                 <div class="ct-chart" id="completedTasksChart"></div>
                               </div>
                               <div class="card-body">
@@ -507,7 +507,7 @@
                         <div class="row">
                           <div class="col-lg-3 col-md-6 col-sm-6">
                             <div class="card card-stats">
-                              <div class="card-header card-header-warning card-header-icon">
+                              <div class="card-header card-header-secondary card-header-icon">
                                 <div class="card-icon">
                                   <i class="material-icons">face</i>
                                 </div>
@@ -516,7 +516,7 @@
                               </div>
                               <div class="card-footer">
                                 <div class="stats">
-                                  <i class="material-icons text-info">info</i>
+                                  <i class="material-icons text-secondary">info</i>
                                   <a href="#pablo">See More...</a>
                                 </div>
                               </div>
@@ -524,7 +524,7 @@
                           </div>
                           <div class="col-lg-3 col-md-6 col-sm-6">
                             <div class="card card-stats">
-                              <div class="card-header card-header-rose card-header-icon">
+                              <div class="card-header card-header-danger card-header-icon">
                                 <div class="card-icon">
                                   <i class="material-icons">equalizer</i>
                                 </div>
@@ -540,7 +540,7 @@
                           </div>
                           <div class="col-lg-3 col-md-6 col-sm-6">
                             <div class="card card-stats">
-                              <div class="card-header card-header-success card-header-icon">
+                              <div class="card-header card-header-danger card-header-icon">
                                 <div class="card-icon">
                                   <i class="material-icons">store</i>
                                 </div>
@@ -556,7 +556,7 @@
                           </div>
                           <div class="col-lg-3 col-md-6 col-sm-6">
                             <div class="card card-stats">
-                              <div class="card-header card-header-info card-header-icon">
+                              <div class="card-header card-header-dark card-header-icon">
                                 <div class="card-icon">
                                   <i class="fa fa-twitter"></i>
                                 </div>

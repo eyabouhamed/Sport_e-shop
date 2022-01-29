@@ -161,7 +161,7 @@ if (!isset($_SESSION['useremail'])){
                   </a>
                 </li>
                 <li class="nav-item ">
-                  <a class="nav-link" href="AjouterCategorie.php" style="background-color:red";>
+                  <a class="nav-link" href="AjouterCategorie.php" >
                     <span class="sidebar-mini"> A </span>
                     <span class="sidebar-normal">Ajouter</span>
                   </a>
@@ -179,13 +179,13 @@ if (!isset($_SESSION['useremail'])){
             <div class="collapse" id="tablesExamples">
               <ul class="nav">
                 <li class="nav-item ">
-                  <a class="nav-link" href="../Produits/ConsulterProduit.php" style="background-color:red";>  
+                  <a class="nav-link" href="../Produits/ConsulterProduit.php" >  
                     <span class="sidebar-mini"> C </span>
                     <span class="sidebar-normal"> Consulter </span>
                   </a>
                 </li>
                 <li class="nav-item ">
-                  <a class="nav-link" href="../Produits/AjouterProduit.php" style="background-color:red";>
+                  <a class="nav-link" href="../Produits/AjouterProduit.php" >
                     <span class="sidebar-mini"> A </span>
                     <span class="sidebar-normal"> Ajouter </span>
                   </a>
@@ -203,13 +203,13 @@ if (!isset($_SESSION['useremail'])){
             <div class="collapse " id="Clients">
               <ul class="nav">
                 <li class="nav-item ">
-                  <a class="nav-link" href="../Clients/ConsulterClients.php" style="background-color:red";>
+                  <a class="nav-link" href="../Clients/ConsulterClients.php" >
                     <span class="sidebar-mini"> C </span>
                     <span class="sidebar-normal"> Consulter </span>
                   </a>
                 </li>
                 <li class="nav-item ">
-                  <a class="nav-link" href="../Clients/AjouterClients.php" style="background-color:red";>
+                  <a class="nav-link" href="../Clients/AjouterClients.php" >
                     <span class="sidebar-mini"> A </span>
                     <span class="sidebar-normal"> Ajouter </span>
                   </a>
@@ -227,13 +227,13 @@ if (!isset($_SESSION['useremail'])){
             <div class="collapse" id="fournisseurs">
               <ul class="nav">
                 <li class="nav-item ">
-                  <a class="nav-link" href="../Fournisseurs/ConsulterFournisseurs.php" style="background-color:red";>
+                  <a class="nav-link" href="../Fournisseurs/ConsulterFournisseurs.php" >
                     <span class="sidebar-mini"> C </span>
                     <span class="sidebar-normal"> Consulter </span>
                   </a>
                 </li>
                 <li class="nav-item ">
-                  <a class="nav-link" href="../Fournisseurs/AjouterFournisseurs.php"style="background-color:red";>
+                  <a class="nav-link" href="../Fournisseurs/AjouterFournisseurs.php">
                     <span class="sidebar-mini"> A </span>
                     <span class="sidebar-normal"> Ajouter </span>
                   </a>
@@ -242,13 +242,13 @@ if (!isset($_SESSION['useremail'])){
             </div>
           </li>
           <li class="nav-item ">
-            <a class="nav-link" href="../Commandes/ConsulterCommandes.php" style="background-color:red";>
+            <a class="nav-link" href="../Commandes/ConsulterCommandes.php" >
               <i class="material-icons">local_grocery_store</i>
               <p> Les commandes </p>
             </a>
           </li>
           <li class="nav-item ">
-            <a class="nav-link" data-toggle="collapse" href="#mapsExamples" style="background-color:red";>
+            <a class="nav-link" data-toggle="collapse" href="#mapsExamples" >
               <i class="material-icons">place</i>
               <p> Maps
                 <b class="caret"></b>
@@ -306,7 +306,7 @@ if (!isset($_SESSION['useremail'])){
           <div class="row">
             <div class="col-md-12">
               <div class="card">
-                <div class="card-header card-header-primary card-header-icon">
+                <div class="card-header card-header-danger card-header-icon">
                   <div class="card-icon">
                     <i class="material-icons">content_paste</i>
                   </div>
@@ -389,7 +389,7 @@ if (!isset($_SESSION['useremail'])){
           <div class="row">
             <div class="col-md-12">
               <div class="card">
-                <div class="card-header card-header-primary card-header-icon">
+                <div class="card-header card-header-danger card-header-icon">
                   <div class="card-icon">
                     <i class="material-icons">content_paste</i>
                   </div>
@@ -441,7 +441,7 @@ if (!isset($_SESSION['useremail'])){
                              <input type="text" class="form-control"  name="reference" value="'.$reference.'" style="display:none;">
                              <input type="text" class="form-control"  name="nom" value="'.$nom.'" style="display:none;">
                              <input type="text" class="form-control"  name="description" value="'.$description.'" style="display:none;">
-                             <button type="submit" title="Editer les coordonnées" name="editerSubCat" class="btn btn-just-icon btn-round btn-info">
+                             <button type="submit" title="Editer les coordonnées" name="editerSubCat" class="btn btn-just-icon btn-round btn-dark">
                               <i class="fa fa-edit"></i>
                              </button>
                             </form>
