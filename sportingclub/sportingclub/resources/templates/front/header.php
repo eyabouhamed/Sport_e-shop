@@ -62,7 +62,7 @@
 
 						echo "</a>";
 						?>
-
+						
 						<a href="contact.php" class="flex-c-m trans-04 p-lr-25">
 							Contact
 						</a>

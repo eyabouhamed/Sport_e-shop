@@ -136,6 +136,36 @@
 	</div>
 
 
+	<div class="chtabot">
+				<button type="submit"  name="editerCat" title="chatbot" class="btn btn-just-icon btn-round btn-dark" data-toggle="modal" data-target="#exampleModal" style="margin-left: 1100px;">
+					<i class="fa fa-edit" style="background-color:gray;"></i> Chat with us now!
+
+				</button>
+				<!-- Modal -->
+				<div class="modal fade" id="exampleModal" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true" style="margin-top: 150px;margin-left:800px;" >
+					<div class="modal-content">
+					
+					<div class="modal-body">
+							<link rel="icon" href="../public/chatbot1/bot.png" />
+							<link rel="stylesheet" href="../public/chatbot1/style.css" />
+							<div id="container" class="container">
+							<div id="chat" class="chat">
+								<div id="messages" class="messages"></div>
+								<input id="input" type="text" placeholder="Say something..." autocomplete="off" autofocus="true" />
+							</div>
+									<!-- <img src="bot.png" alt="Robot cartoon" height="500vh"> -->
+							</div>
+				
+							<script type="text/javascript" src="../public/chatbot1/index.js" ></script>
+							<script type="text/javascript" src="../public/chatbot1/constants.js" ></script>
+						<script type="text/javascript" src="../public/chatbot1/speech.js" ></script>
+					</div>
+					</div>
+				</div>
+				
+				<br/>
+	</div>
+	<br/>
 	<!-- Footer -->
 	<?php include(TEMPLATE_FRONT . DS . "footer.php") ?>
 

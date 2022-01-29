@@ -316,10 +316,11 @@
 					charger plus
 				</a>
 			</div>
+			
 		</div>
+		
 	</section>
-<a href="../index.html">chatbot</a>
-
+	
 	<!-- Footer -->
 	<?php include(TEMPLATE_FRONT . DS . "footer.php") ?>
 
@@ -432,7 +433,7 @@
 	</script>
 	<!--===============================================================================================-->
 	<script src="js/main.js"></script>
-
+		
 	</body>
 
 </html>
