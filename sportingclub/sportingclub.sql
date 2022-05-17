@@ -114,7 +114,7 @@ CREATE TABLE IF NOT EXISTS `client` (
 INSERT INTO `client` (`id`, `firstname`, `lastname`, `cin`, `email`, `passwd`, `phone`, `company`, `country`, `address1`, `address2`, `city`, `zipcode`, `title`) VALUES
 (1, 'bouhamed', 'eya', 0, 'eya.bouhamed@enis.tn', '060772', 24866940, 'enis', 'tunisia', 'route afrane km 8', 'markez wali', 'sfax', 3093, 'M.'),
 (2, 'belhadj', 'wiem', 0, 'wiem.belhadj@stud.enis.tn', '0000000', 52616603, 'enis', 'Tunis', 'route manzel chaker km 6', 'route manzel chaker km 6', 'Sfax', 3013, 'M.'),
-(5, 'rahma', 'jallouli', 11100778, 'rahma.jallouli@gmail.com', '123', 52950295, 'ENIS', 'Tunisie', 'Rte. Gremda km6', 'Taher Kammoun', 'Sfax', 3022, 'M.');
+(3, 'rahma', 'jallouli', 11100778, 'rahma.jallouli@gmail.com', '123', 52950295, 'ENIS', 'Tunisie', 'Rte. Gremda km6', 'Taher Kammoun', 'Sfax', 3022, 'M.');
 
 -- --------------------------------------------------------
 
